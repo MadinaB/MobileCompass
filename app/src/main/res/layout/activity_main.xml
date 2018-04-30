@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckg_full"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    tools:context="com.madinabektayeva.compass.MainActivity">
+    
+    <ImageView
+        android:id="@+id/tv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/compass2"
+        />
+
+    <ImageView
+        android:id="@+id/tv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow_icon"
+        />
+
+    <ImageView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@drawable/text_field"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:id="@+id/tv_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_text"
+        android:layout_alignEnd="@+id/tv_back"
+        android:text="@string/degree"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
