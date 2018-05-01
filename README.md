@@ -1,9 +1,6 @@
-Sometimes all of us have that kind of cherry blossom mood when things flourish both inside and outside.
-
-![ ](demo/blossom.jpg)
 
 
-The app stored in this page is a simple compass app done in that kind of mood.
+The app stored in this page is a simple compass app.
 
 ![ ](demo/compassapp.jpg)
 
@@ -17,3 +14,9 @@ Then sketch was implemented into pretty looking android app.
 
 
 ![](demo/compass.gif)
+
+
+Sometimes all of us have that kind of cherry blossom mood.
+
+![ ](demo/blossom.jpg)
+
